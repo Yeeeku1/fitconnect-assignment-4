@@ -1,13 +1,421 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="FitConnect Assignment 4: Create your account"><title>Task 4 · Create your account | FitConnect</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/bootstrap.min.css"><link rel="stylesheet" href="assets/styles.css"><script src="assets/bootstrap.bundle.min.js" defer></script><script src="assets/app.js" defer></script></head>
-<body><a class="skip-link" href="#main">Skip to content</a>
-<header><nav class="navbar navbar-expand-lg" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="index.html"><span class="brand-mark" aria-hidden="true">f<span>c</span></span>FitConnect<span class="brand-dot">.</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navigation"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Task 0<span>Contact</span></a></li><li class="nav-item"><a class="nav-link" href="task1.html">Task 1<span>HTML5</span></a></li><li class="nav-item"><a class="nav-link" href="task2.html">Task 2<span>Styling</span></a></li><li class="nav-item"><a class="nav-link" href="task3.html">Task 3<span>Feedback</span></a></li><li class="nav-item"><a class="nav-link active" href="task4.html" aria-current="page">Task 4<span>Register</span></a></li></ul></div></div></nav></header>
-<main class="container" id="main"><div class="page-heading"><p class="eyebrow">THE FITCONNECT COMMUNITY <span>/</span> ASSIGNMENT 04</p><div class="heading-line"><h1>Create your account<span>.</span></h1><span class="task-badge">TASK 04</span></div><p class="intro">Your next chapter starts here. Join a community that moves with you.</p></div>
-<div class="row g-4 align-items-start"><aside class="col-lg-4"><div class="community-card"><div class="status-pill"><span></span> MADE FOR EVERY BODY</div><h2>Find your people.<br>Find your pace.</h2><p>Small steps. Shared goals.<br>A stronger you, together.</p><div class="track-art" aria-hidden="true"><div class="track-circle circle-one"></div><div class="track-circle circle-two"></div><div class="track-circle circle-three"></div><div class="track-circle circle-four"></div><span class="art-label">KEEP<br>MOVING<span>↗</span></span></div><div class="community-bottom"><span class="mini-mark">FC</span><div>Progress feels better together.<small>Your journey. Your community.</small></div></div></div><div class="side-note"><span class="note-number">05 / 05</span><p>Tell us a little about yourself and what keeps you moving.</p></div></aside>
-<section class="col-lg-8" aria-labelledby="form-title"><div class="form-card"><div class="form-heading"><div><p class="eyebrow">JOIN THE COMMUNITY</p><h2 id="form-title">Make your first move</h2></div><span class="form-icon" aria-hidden="true">↗</span></div><p class="form-caption">All fields are required except hobbies.</p>
-<form id="main-form" class="row g-3" data-task="4"><div class="col-md-6"><label for="first-name" class="form-label">First name</label><input id="first-name" name="first-name" type="text" class="form-control" autocomplete="given-name" placeholder="Alex" required minlength="2" maxlength="40" pattern=".*\S.*" aria-describedby="first-name-help first-name-valid first-name-error"><div id="first-name-help" class="form-text">Use 2–40 characters.</div><div class="valid-feedback" id="first-name-valid">Looks good!</div><div class="invalid-feedback" id="first-name-error"></div></div><div class="col-md-6"><label for="last-name" class="form-label">Last name</label><input id="last-name" name="last-name" type="text" class="form-control" autocomplete="family-name" placeholder="Morgan" required minlength="2" maxlength="40" pattern=".*\S.*" aria-describedby="last-name-help last-name-valid last-name-error"><div id="last-name-help" class="form-text">Use 2–40 characters.</div><div class="valid-feedback" id="last-name-valid">Looks good!</div><div class="invalid-feedback" id="last-name-error"></div></div><div class="col-12"><label for="email" class="form-label">Email</label><input id="email" name="email" type="email" class="form-control" autocomplete="email" placeholder="you@example.com" required maxlength="120" aria-describedby="email-help email-valid email-error"><div id="email-help" class="form-text">Use a valid email address.</div><div class="valid-feedback" id="email-valid">Looks good!</div><div class="invalid-feedback" id="email-error"></div></div><div class="col-md-6"><label for="password" class="form-label">Password</label><input id="password" name="password" type="password" class="form-control" autocomplete="new-password" placeholder="Choose a strong password" required minlength="8" maxlength="64" pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,64}" aria-describedby="password-help password-valid password-error"><div id="password-help" class="form-text">8–64 characters, including a letter and a number.</div><div class="valid-feedback" id="password-valid">Looks good!</div><div class="invalid-feedback" id="password-error"></div></div><div class="col-md-6"><label for="confirm-password" class="form-label">Confirm password</label><input id="confirm-password" name="confirm-password" type="password" class="form-control" autocomplete="new-password" placeholder="Repeat your password" required minlength="8" maxlength="64" aria-describedby="confirm-password-help confirm-password-valid confirm-password-error"><div id="confirm-password-help" class="form-text">Must match your password.</div><div class="valid-feedback" id="confirm-password-valid">Looks good!</div><div class="invalid-feedback" id="confirm-password-error"></div></div><fieldset class="col-12"><legend>Gender <span class="required-note">Required</span></legend><div class="choice-row"><div class="form-check"><input class="form-check-input" type="radio" id="gender-0" name="gender" value="Woman" required aria-describedby="gender-help gender-error gender-valid"><label class="form-check-label" for="gender-0">Woman</label></div><div class="form-check"><input class="form-check-input" type="radio" id="gender-1" name="gender" value="Man" required aria-describedby="gender-help gender-error gender-valid"><label class="form-check-label" for="gender-1">Man</label></div><div class="form-check"><input class="form-check-input" type="radio" id="gender-2" name="gender" value="Non-binary" required aria-describedby="gender-help gender-error gender-valid"><label class="form-check-label" for="gender-2">Non-binary</label></div><div class="form-check"><input class="form-check-input" type="radio" id="gender-3" name="gender" value="Prefer not to say" required aria-describedby="gender-help gender-error gender-valid"><label class="form-check-label" for="gender-3">Prefer not to say</label></div></div><div class="form-text" id="gender-help">Choose one option.</div><div class="invalid-feedback" id="gender-error">Please select a gender option.</div><div class="valid-feedback" id="gender-valid">Looks good!</div></fieldset>
-      <fieldset class="col-12"><legend>Hobbies <span class="required-note">Optional</span></legend><div class="choice-row"><div class="form-check"><input class="form-check-input" type="checkbox" id="hobby-0" name="hobbies" value="Strength training"><label class="form-check-label" for="hobby-0">Strength training</label></div><div class="form-check"><input class="form-check-input" type="checkbox" id="hobby-1" name="hobbies" value="Running"><label class="form-check-label" for="hobby-1">Running</label></div><div class="form-check"><input class="form-check-input" type="checkbox" id="hobby-2" name="hobbies" value="Yoga"><label class="form-check-label" for="hobby-2">Yoga</label></div><div class="form-check"><input class="form-check-input" type="checkbox" id="hobby-3" name="hobbies" value="Cycling"><label class="form-check-label" for="hobby-3">Cycling</label></div></div></fieldset>
-      <div class="col-12"><label class="form-label" for="country">Country</label><select class="form-select" id="country" name="country" required aria-describedby="country-help country-error country-valid"><option value="">Select your country</option><option value="Kazakhstan">Kazakhstan</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Uzbekistan">Uzbekistan</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="Canada">Canada</option><option value="Germany">Germany</option><option value="India">India</option><option value="Other">Other</option></select><div class="form-text" id="country-help">Choose where you live. Select Other if your country is not listed.</div><div class="valid-feedback" id="country-valid">Looks good!</div><div class="invalid-feedback" id="country-error"></div></div><div class="col-12 form-actions"><button type="submit" class="btn btn-primary">Create account <span aria-hidden="true">↗</span></button><button type="reset" class="btn btn-outline-secondary">Reset form</button></div><div class="col-12"><div id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></div></div></form><p class="demo-note">Assignment demo · No account is created. Your details stay in this page and are not saved.</p></div></section></div>
-<div class="page-navigation"><a href="task3.html">← Task 3</a><a href="index.html">Back to Task 0 →</a></div></main>
-<footer class="container"><span>FitConnect<span class="brand-dot">.</span> <span class="footer-tag">Move together. Grow together.</span></span><span>Assignment 4 · Forms &amp; Validation</span></footer></body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FitConnect Assignment 4: Create your account" />
+    <title>Task 4 · Create your account | FitConnect</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+      <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">
+              f
+              <span>c</span>
+            </span>
+            FitConnect
+            <span class="brand-dot">.</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navigation"
+            aria-controls="navigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  Task 0
+                  <span>Contact</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task1.html">
+                  Task 1
+                  <span>HTML5</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task2.html">
+                  Task 2
+                  <span>Styling</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task3.html">
+                  Task 3
+                  <span>Feedback</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="task4.html" aria-current="page">
+                  Task 4
+                  <span>Register</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container" id="main">
+      <div class="page-heading">
+        <p class="eyebrow">
+          THE FITCONNECT COMMUNITY
+          <span>/</span>
+          ASSIGNMENT 04
+        </p>
+        <div class="heading-line">
+          <h1>
+            Create your account
+            <span>.</span>
+          </h1>
+          <span class="task-badge">TASK 04</span>
+        </div>
+        <p class="intro">
+          Your next chapter starts here. Join a community that moves with you.
+        </p>
+      </div>
+      <div class="row g-4 align-items-start">
+        <aside class="col-lg-4">
+          <div class="community-card">
+            <div class="status-pill">
+              <span></span>
+              MADE FOR EVERY BODY
+            </div>
+            <h2>
+              Find your people.
+              <br />
+              Find your pace.
+            </h2>
+            <p>
+              Small steps. Shared goals.
+              <br />
+              A stronger you, together.
+            </p>
+            <div class="track-art" aria-hidden="true">
+              <div class="track-circle circle-one"></div>
+              <div class="track-circle circle-two"></div>
+              <div class="track-circle circle-three"></div>
+              <div class="track-circle circle-four"></div>
+              <span class="art-label">
+                KEEP
+                <br />
+                MOVING
+                <span>↗</span>
+              </span>
+            </div>
+            <div class="community-bottom">
+              <span class="mini-mark">FC</span>
+              <div>
+                Progress feels better together.
+                <small>Your journey. Your community.</small>
+              </div>
+            </div>
+          </div>
+          <div class="side-note">
+            <span class="note-number">05 / 05</span>
+            <p>Tell us a little about yourself and what keeps you moving.</p>
+          </div>
+        </aside>
+        <section class="col-lg-8" aria-labelledby="form-title">
+          <div class="form-card">
+            <div class="form-heading">
+              <div>
+                <p class="eyebrow">JOIN THE COMMUNITY</p>
+                <h2 id="form-title">Make your first move</h2>
+              </div>
+              <span class="form-icon" aria-hidden="true">↗</span>
+            </div>
+            <p class="form-caption">All fields are required except hobbies.</p>
+            <form id="main-form" class="row g-3" data-task="4">
+              <div class="col-md-6">
+                <label for="first-name" class="form-label">First name</label>
+                <input
+                  id="first-name"
+                  name="first-name"
+                  type="text"
+                  class="form-control"
+                  autocomplete="given-name"
+                  placeholder="Alex"
+                  required
+                  minlength="2"
+                  maxlength="40"
+                  pattern=".*\S.*"
+                  aria-describedby="first-name-help first-name-valid first-name-error"
+                />
+                <div id="first-name-help" class="form-text">Use 2–40 characters.</div>
+                <div class="valid-feedback" id="first-name-valid">Looks good!</div>
+                <div class="invalid-feedback" id="first-name-error"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="last-name" class="form-label">Last name</label>
+                <input
+                  id="last-name"
+                  name="last-name"
+                  type="text"
+                  class="form-control"
+                  autocomplete="family-name"
+                  placeholder="Morgan"
+                  required
+                  minlength="2"
+                  maxlength="40"
+                  pattern=".*\S.*"
+                  aria-describedby="last-name-help last-name-valid last-name-error"
+                />
+                <div id="last-name-help" class="form-text">Use 2–40 characters.</div>
+                <div class="valid-feedback" id="last-name-valid">Looks good!</div>
+                <div class="invalid-feedback" id="last-name-error"></div>
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                  required
+                  maxlength="120"
+                  aria-describedby="email-help email-valid email-error"
+                />
+                <div id="email-help" class="form-text">Use a valid email address.</div>
+                <div class="valid-feedback" id="email-valid">Looks good!</div>
+                <div class="invalid-feedback" id="email-error"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  class="form-control"
+                  autocomplete="new-password"
+                  placeholder="Choose a strong password"
+                  required
+                  minlength="8"
+                  maxlength="64"
+                  pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,64}"
+                  aria-describedby="password-help password-valid password-error"
+                />
+                <div id="password-help" class="form-text">
+                  8–64 characters, including a letter and a number.
+                </div>
+                <div class="valid-feedback" id="password-valid">Looks good!</div>
+                <div class="invalid-feedback" id="password-error"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="confirm-password" class="form-label">Confirm password</label>
+                <input
+                  id="confirm-password"
+                  name="confirm-password"
+                  type="password"
+                  class="form-control"
+                  autocomplete="new-password"
+                  placeholder="Repeat your password"
+                  required
+                  minlength="8"
+                  maxlength="64"
+                  aria-describedby="confirm-password-help confirm-password-valid confirm-password-error"
+                />
+                <div id="confirm-password-help" class="form-text">
+                  Must match your password.
+                </div>
+                <div class="valid-feedback" id="confirm-password-valid">Looks good!</div>
+                <div class="invalid-feedback" id="confirm-password-error"></div>
+              </div>
+              <fieldset class="col-12">
+                <legend>
+                  Gender
+                  <span class="required-note">Required</span>
+                </legend>
+                <div class="choice-row">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="gender-0"
+                      name="gender"
+                      value="Woman"
+                      required
+                      aria-describedby="gender-help gender-error gender-valid"
+                    />
+                    <label class="form-check-label" for="gender-0">Woman</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="gender-1"
+                      name="gender"
+                      value="Man"
+                      required
+                      aria-describedby="gender-help gender-error gender-valid"
+                    />
+                    <label class="form-check-label" for="gender-1">Man</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="gender-2"
+                      name="gender"
+                      value="Non-binary"
+                      required
+                      aria-describedby="gender-help gender-error gender-valid"
+                    />
+                    <label class="form-check-label" for="gender-2">Non-binary</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      id="gender-3"
+                      name="gender"
+                      value="Prefer not to say"
+                      required
+                      aria-describedby="gender-help gender-error gender-valid"
+                    />
+                    <label class="form-check-label" for="gender-3">
+                      Prefer not to say
+                    </label>
+                  </div>
+                </div>
+                <div class="form-text" id="gender-help">Choose one option.</div>
+                <div class="invalid-feedback" id="gender-error">
+                  Please select a gender option.
+                </div>
+                <div class="valid-feedback" id="gender-valid">Looks good!</div>
+              </fieldset>
+              <fieldset class="col-12">
+                <legend>
+                  Hobbies
+                  <span class="required-note">Optional</span>
+                </legend>
+                <div class="choice-row">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="hobby-0"
+                      name="hobbies"
+                      value="Strength training"
+                    />
+                    <label class="form-check-label" for="hobby-0">
+                      Strength training
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="hobby-1"
+                      name="hobbies"
+                      value="Running"
+                    />
+                    <label class="form-check-label" for="hobby-1">Running</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="hobby-2"
+                      name="hobbies"
+                      value="Yoga"
+                    />
+                    <label class="form-check-label" for="hobby-2">Yoga</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="hobby-3"
+                      name="hobbies"
+                      value="Cycling"
+                    />
+                    <label class="form-check-label" for="hobby-3">Cycling</label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="col-12">
+                <label class="form-label" for="country">Country</label>
+                <select
+                  class="form-select"
+                  id="country"
+                  name="country"
+                  required
+                  aria-describedby="country-help country-error country-valid"
+                >
+                  <option value="">Select your country</option>
+                  <option value="Kazakhstan">Kazakhstan</option>
+                  <option value="Kyrgyzstan">Kyrgyzstan</option>
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="United States">United States</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Germany">Germany</option>
+                  <option value="India">India</option>
+                  <option value="Other">Other</option>
+                </select>
+                <div class="form-text" id="country-help">
+                  Choose where you live. Select Other if your country is not listed.
+                </div>
+                <div class="valid-feedback" id="country-valid">Looks good!</div>
+                <div class="invalid-feedback" id="country-error"></div>
+              </div>
+              <div class="col-12 form-actions">
+                <button type="submit" class="btn btn-primary">
+                  Create account
+                  <span aria-hidden="true">↗</span>
+                </button>
+                <button type="reset" class="btn btn-outline-secondary">Reset form</button>
+              </div>
+              <div class="col-12">
+                <div
+                  id="form-status"
+                  class="form-status"
+                  role="status"
+                  aria-live="polite"
+                  tabindex="-1"
+                  hidden
+                ></div>
+              </div>
+            </form>
+            <p class="demo-note">
+              Assignment demo · No account is created. Your details stay in this page and
+              are not saved.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="page-navigation">
+        <a href="task3.html">← Task 3</a>
+        <a href="index.html">Back to Task 0 →</a>
+      </div>
+    </main>
+    <footer class="container">
+      <span>
+        FitConnect
+        <span class="brand-dot">.</span>
+        <span class="footer-tag">Move together. Grow together.</span>
+      </span>
+      <span>Assignment 4 · Forms &amp; Validation</span>
+    </footer>
+  </body>
+</html>
+
