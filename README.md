@@ -2,9 +2,14 @@
 
 A five-page fitness community website demonstrating forms and validation. All interface text is English. The HTML, CSS, and JavaScript contain no comments.
 
+## Project links
+
+- Website: https://yeeeku1.github.io/fitconnect-assignment-4/
+- Repository: https://github.com/Yeeeku1/fitconnect-assignment-4
+
 ## Run
 
-Extract the ZIP and open `FitConnect/index.html` in a modern browser. No installation, build step, internet connection, or server is needed. Bootstrap 5.3.3 CSS and the JavaScript bundle are included locally.
+Download and extract the project, then open `index.html` inside the extracted project folder in a modern browser. No installation, build step, internet connection, or server is needed. Bootstrap 5.3.3 CSS and the JavaScript bundle are included locally.
 
 ## Pages
 
@@ -44,7 +49,7 @@ See `VERIFICATION.md` for completed browser checks.
 
 ## Publish for submission
 
-The assignment document requires a public website and GitHub repository link. This downloadable project does not itself create either.
+The repository is published using GitHub Pages from the `main` branch and repository root. Use the project links above for submission. The instructions below explain how to deploy another copy.
 
 ### GitHub Pages
 
