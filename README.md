@@ -1,5 +1,8 @@
 # FitConnect — Assignment 4
 
+**Student:** Yerasyl Dauyl  
+**Group:** SE-2527
+
 A five-page fitness community website demonstrating forms and validation. All interface text is English. The HTML, CSS, and JavaScript contain no comments.
 
 ## Project links
